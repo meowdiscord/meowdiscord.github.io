@@ -1,0 +1,232 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*My Code*/
+
+body {
+  background-color: #000;
+}
+
+h1 {
+  margin-top: 225px; font-size: 35px; text-align: center; color: white; font-family: 'Assistant', sans-serif;
+}
+
+.main-p {
+  margin-top: 20px; font-size: 15px; text-align: center; color: white; font-family: 'Assistant', sans-serif;
+}
+
+.button-botinvdiv {
+  margin-top: 75px; text-align: center;
+}
+
+.button-botinv {
+  font-size: 17px; text-decoration: none; border: 20px solid #ADD8E6; border-radius: 5px; padding 20px; background-color: #ADD8E6; color: white; font-family: 'Assistant', sans-serif;
+}
+
+.button-aboutdiv {
+  margin-top: 75px; text-align: center;
+}
+
+.button-about {
+  font-size: 15px; text-decoration: none; border: 20px solid #000000; border-radius: 5px; padding 20px; background-color: #000000; color: white; font-family: 'Assistant', sans-serif;
+}
+
+.discorddiv {
+  text-align: right;
+}
+
+.discord {
+  text-decoration: none; color: black;
+}
+
+.about-meow {
+  margin-top: 225px; font-size: 50px; text-align: center; color: white; font-family: 'Assistant', sans-serif;
+}
+
+.features-meow {
+  margin-top: 100px; font-size: 40px; text-align: left; color: white; font-family: 'Assistant', sans-serif; margin-left: 100px;
+}
+
+.features-p1 {
+  margin-top: 20px; font-size: 20px; text-align: left; color: white; font-family: 'Assistant', sans-serif; margin-left: 100px; margin-top: 20px;
+}
+
+.welcome {
+  font-size: 75px;
+}
+
+.img-div {
+  background-color: white; width: 32; height: 32;
+}
+
+.join-text {
+  text-align: center; color: red; text-decoration: none; font-family: 'Assistant', sans-serif;
+}
+
+.join {
+  font-size: 60px; margin: 75px; text-align: center;
+}
+
+.addbot-text {
+  text-align: center; color: brown; text-decoration: none; font-family: 'Overpass', sans-serif;
+}
+
+.addbot {
+  font-size: 50px; margin: 75px; text-align: center;
+}
+
+.about-text {
+  text-align: center; color: brown; text-decoration: none; font-family: 'Overpass', sans-serif;
+}
+
+.about {
+  font-size: 25px;
+}
+
+.enjoy-text {
+  margin: 40px; text-align: center; color: purple; font-family: 'Overpass', sans-serif;
+}
+
+.wsite-content-title {
+  font-size: 25px; font-family: 'Overpass', sans-serif; text-decoration: none; color: black;
+}
+
+.botpfp {
+  margin-top: 150px;
+}
+
+.gray {
+  height: 100px; background-color: #232423;
+}
+
+.gray-about {
+  height: 100px; background-color: #232423; margin-top: 400px;
+}
+
+.body-about {
+  background-color: white;
+}
+
+.servername-about-text {
+  color: black;  font-family: 'Overpass', sans-serif;
+}
+
+.server-about-text {
+  font-family: 'Assistant', sans-serif; font-size: 20px; text-align: center; margin-top: 50px;
+}
+
+nav {
+  width: 100%; height: 40px; background-color: #fff;
+}
+
+ul {
+
+}
+
+ul li {
+  display: inline-block; line-height: 40px
+}
+
+ul li a {
+  text-decoration: none; font-size: 20px; color: black; font-family: 'Overpass', sans-serif;  margin-left: 300px; margin-right: 50px;
+}
